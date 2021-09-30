@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "${config:browseIncludePath}",
+                "..\\SFML_\\include\\"
+            ],
+            "defines": [
+                "${config:macro_defines}",
+                "SFML_STATIC"
+            ],
+            "compilerPath": "${config:compiler}",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}

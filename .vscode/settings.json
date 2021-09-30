@@ -1,0 +1,31 @@
+{
+    "compiler": "C:\\msys64\\mingw64\\bin\\g++.exe",
+    //"compiler" : "C:\\mingw64\\bin\\g++.exe",
+    "browseIncludePath": [
+        "${workspaceFolder}/**"
+    ],
+    "debugger": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+    "include_path": ["${workspaceFolder}"],
+    "exe_name": "06.exe",
+    "build_release_folder": "${workspaceFolder}\\.build\\Release",
+    "build_debug_folder": "${workspaceFolder}\\.build\\Debug",
+    "macro_defines": ["SFML_STATIC"],
+    "source_files": "${workspaceFolder}\\*.cpp",
+    "editor.fontSize": 14,
+    "files.associations": {
+        "vector": "cpp",
+        "string": "cpp",
+        "clocale": "cpp",
+        "stdexcept": "cpp",
+        "cstdint": "cpp",
+        "*.tcc": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.rulers": [80,120],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    }
+}
