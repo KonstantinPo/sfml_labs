@@ -6,7 +6,7 @@
     ],
     "debugger": "C:\\msys64\\mingw64\\bin\\gdb.exe",
     "include_path": ["${workspaceFolder}"],
-    "exe_name": "06.exe",
+    "exe_name": "12.exe",
     "build_release_folder": "${workspaceFolder}\\.build\\Release",
     "build_debug_folder": "${workspaceFolder}\\.build\\Debug",
     "macro_defines": ["SFML_STATIC"],
