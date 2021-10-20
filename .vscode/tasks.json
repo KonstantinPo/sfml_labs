@@ -42,6 +42,272 @@
 		},
 		{
 			"type": "cppbuild",
+			"label": "sfml3.2 debug",
+			"command": "${config:compiler}",
+			"args": [
+				"${workspaceFolder}\\sfml3.2\\main.cpp",
+				"-o",
+				"${config:build_debug_folder}\\sfml3_2.exe", 
+				"-DSFML_STATIC",
+				"-g",
+				"-Og",
+				"-Wall",
+				"-I${workspaceFolder}\\..\\SFML_\\include",
+				"-L${workspaceFolder}\\..\\SFML_\\lib",
+				 "-lsfml-main",
+				"-lsfml-graphics-s-d",
+				"-lsfml-window-s-d",
+				"-lsfml-system-s-d",
+				"-lopengl32",
+				"-lglew32",
+				"-lwinmm",
+				"-lgdi32",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: ${config:compiler}",
+			"dependsOn": [
+				"(debug) create build directory"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "sfml3 04 debug",
+			"command": "${config:compiler}",
+			"args": [
+				"${workspaceFolder}\\sfml3\\04\\main.cpp",
+				"-o",
+				"${config:build_debug_folder}\\sfml3_04.exe", 
+				"-DSFML_STATIC",
+				"-g",
+				"-Og",
+				"-Wall",
+				"-I${workspaceFolder}\\..\\SFML_\\include",
+				"-L${workspaceFolder}\\..\\SFML_\\lib",
+				 "-lsfml-main",
+				"-lsfml-graphics-s-d",
+				"-lsfml-window-s-d",
+				"-lsfml-system-s-d",
+				"-lopengl32",
+				"-lglew32",
+				"-lwinmm",
+				"-lgdi32",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: ${config:compiler}",
+			"dependsOn": [
+				"(debug) create build directory"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "sfml3 03 debug",
+			"command": "${config:compiler}",
+			"args": [
+				"${workspaceFolder}\\sfml3\\03\\main.cpp",
+				"-o",
+				"${config:build_debug_folder}\\sfml3_03.exe", 
+				"-DSFML_STATIC",
+				"-g",
+				"-Og",
+				"-Wall",
+				"-I${workspaceFolder}\\..\\SFML_\\include",
+				"-L${workspaceFolder}\\..\\SFML_\\lib",
+				 "-lsfml-main",
+				"-lsfml-graphics-s-d",
+				"-lsfml-window-s-d",
+				"-lsfml-system-s-d",
+				"-lopengl32",
+				"-lglew32",
+				"-lwinmm",
+				"-lgdi32",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: ${config:compiler}",
+			"dependsOn": [
+				"(debug) create build directory"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "sfml3 02 debug",
+			"command": "${config:compiler}",
+			"args": [
+				"${workspaceFolder}\\sfml3\\02\\main.cpp",
+				"-o",
+				"${config:build_debug_folder}\\sfml3_02.exe", 
+				"-DSFML_STATIC",
+				"-g",
+				"-Og",
+				"-Wall",
+				"-I${workspaceFolder}\\..\\SFML_\\include",
+				"-L${workspaceFolder}\\..\\SFML_\\lib",
+				 "-lsfml-main",
+				"-lsfml-graphics-s-d",
+				"-lsfml-window-s-d",
+				"-lsfml-system-s-d",
+				"-lopengl32",
+				"-lglew32",
+				"-lwinmm",
+				"-lgdi32",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: ${config:compiler}",
+			"dependsOn": [
+				"(debug) create build directory"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "sfml2.2 debug",
+			"command": "${config:compiler}",
+			"args": [
+				"${workspaceFolder}\\sfml2.2\\main.cpp",
+				"-o",
+				"${config:build_debug_folder}\\sfml2.2.exe", 
+				"-DSFML_STATIC",
+				"-g",
+				"-Og",
+				"-Wall",
+				"-I${workspaceFolder}\\..\\SFML_\\include",
+				"-L${workspaceFolder}\\..\\SFML_\\lib",
+				 "-lsfml-main",
+				"-lsfml-graphics-s-d",
+				"-lsfml-window-s-d",
+				"-lsfml-system-s-d",
+				"-lopengl32",
+				"-lglew32",
+				"-lwinmm",
+				"-lgdi32",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: ${config:compiler}",
+			"dependsOn": [
+				"(debug) create build directory"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "sfml1.2 03 debug",
+			"command": "${config:compiler}",
+			"args": [
+				"${workspaceFolder}\\sfml1.2\\03\\main.cpp",
+				"-o",
+				"${config:build_debug_folder}\\sfml1.2_03.exe", 
+				"-DSFML_STATIC",
+				"-g",
+				"-Og",
+				"-Wall",
+				"-I${workspaceFolder}\\..\\SFML_\\include",
+				"-L${workspaceFolder}\\..\\SFML_\\lib",
+				 "-lsfml-main",
+				"-lsfml-graphics-s-d",
+				"-lsfml-window-s-d",
+				"-lsfml-system-s-d",
+				"-lopengl32",
+				"-lglew32",
+				"-lwinmm",
+				"-lgdi32",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: ${config:compiler}",
+			"dependsOn": [
+				"(debug) create build directory"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "sfml2.1 debug",
+			"command": "${config:compiler}",
+			"args": [
+				"${workspaceFolder}\\sfml2.1\\main.cpp",
+				"-o",
+				"${config:build_debug_folder}\\sfml2.1.exe", 
+				"-DSFML_STATIC",
+				"-g",
+				"-Og",
+				"-Wall",
+				"-I${workspaceFolder}\\..\\SFML_\\include",
+				"-L${workspaceFolder}\\..\\SFML_\\lib",
+				 "-lsfml-main",
+				"-lsfml-graphics-s-d",
+				"-lsfml-window-s-d",
+				"-lsfml-system-s-d",
+				"-lopengl32",
+				"-lglew32",
+				"-lwinmm",
+				"-lgdi32",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "компилятор: ${config:compiler}",
+			"dependsOn": [
+				"(debug) create build directory"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			}
+		},
+		{
+			"type": "cppbuild",
 			"label": "sfml1.2 02 debug",
 			"command": "${config:compiler}",
 			"args": [
@@ -118,12 +384,12 @@
 		},
 		{
 			"type": "cppbuild",
-			"label": "01 debug",
+			"label": "sfml1.1 01 debug",
 			"command": "${config:compiler}",
 			"args": [
-				"${workspaceFolder}\\01\\main.cpp",
+				"${workspaceFolder}\\sfml1.1\\01\\main.cpp",
 				"-o",
-				"${config:build_debug_folder}\\01.exe", 
+				"${config:build_debug_folder}\\sfml1.1_01.exe", 
 				"-DSFML_STATIC",
 				"-g",
 				"-Og",
@@ -156,12 +422,12 @@
 		},
 		{
 			"type": "cppbuild",
-			"label": "02 debug",
+			"label": "sfml1.1 02 debug",
 			"command": "${config:compiler}",
 			"args": [
-				"${workspaceFolder}\\02\\main.cpp",
+				"${workspaceFolder}\\sfml1.1\\02\\main.cpp",
 				"-o",
-				"${config:build_debug_folder}\\02.exe", 
+				"${config:build_debug_folder}\\sfml1.1_02.exe", 
 				"-DSFML_STATIC",
 				"-g",
 				"-Og",
@@ -270,12 +536,12 @@
 		},
 		{
 			"type": "cppbuild",
-			"label": "03 debug",
+			"label": "sfml1 03 debug",
 			"command": "${config:compiler}",
 			"args": [
-				"${workspaceFolder}\\03\\main.cpp",
+				"${workspaceFolder}\\sfml1.1\\03\\main.cpp",
 				"-o",
-				"${config:build_debug_folder}\\03.exe", 
+				"${config:build_debug_folder}\\sfml1.1_03.exe", 
 				"-DSFML_STATIC",
 				"-g",
 				"-Og",
@@ -308,12 +574,12 @@
 		},
 		{
 			"type": "cppbuild",
-			"label": "06 debug",
+			"label": "sfml1.3 debug",
 			"command": "${config:compiler}",
 			"args": [
-				"${workspaceFolder}\\06\\main.cpp",
+				"${workspaceFolder}\\sfml1.3\\main.cpp",
 				"-o",
-				"${config:build_debug_folder}\\06.exe", 
+				"${config:build_debug_folder}\\sfml1.3.exe", 
 				"-DSFML_STATIC",
 				"-g",
 				"-Og",

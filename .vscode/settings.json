@@ -1,6 +1,5 @@
 {
     "compiler": "C:\\msys64\\mingw64\\bin\\g++.exe",
-    //"compiler" : "C:\\mingw64\\bin\\g++.exe",
     "browseIncludePath": [
         "${workspaceFolder}/**"
     ],
@@ -20,7 +19,8 @@
         "cstdint": "cpp",
         "*.tcc": "cpp",
         "istream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "cmath": "cpp"
     },
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-vscode.cpptools",
