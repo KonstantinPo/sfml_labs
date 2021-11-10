@@ -1,0 +1,1 @@
+ "C:/Program Files (x86)/SFML/lib/libsfml-graphics-s.a" "C:/Program Files (x86)/SFML/lib/libsfml-window-s.a" "C:/Program Files (x86)/SFML/lib/libsfml-system-s.a" -static-libgcc -static-libstdc++ -lOpenGL32 -lwinmm -lgdi32 "C:/Program Files (x86)/SFML/lib/libfreetype.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
